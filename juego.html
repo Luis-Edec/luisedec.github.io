@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Página Web</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Menú horizontal */
+    nav {
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      display: inline-block;
+      transition: background 0.3s;
+      margin-left: 5%;
+    }
+
+    nav a:hover {
+      background-color: #575757;
+    }
+
+    .contenido {
+      padding: 20px;
+    }
+
+    /* Responsive: menú vertical en pantallas pequeñas */
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="titulo_roblox.png">
+  </header>
+
+  <nav>
+    <a href="principal.html">Inicio</a>
+    <a href="historia.html">Historia</a>
+    <a href="juego.html">Tipos de juego</a>
+    <a href="rankings.html">Mis rankings</a>
+    <a href="skins.html">Skins</a>
+    <a href="tutorial.html">Tutorial</a>
+    <a href="index.html">Salir</a>
+  </nav>
+
+  <div class="contenido">
+    <h2 id="inicio">Historia</h2>
+    <p>Esta es la historia de Roblox</p>
+  </div>
+
+</body>
+</html>
